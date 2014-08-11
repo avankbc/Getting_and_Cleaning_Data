@@ -7,9 +7,9 @@ A full description is available at the site where the data was obtained:  http:/
 The R script called run_analysis.R performs the following:
 
 * Merges the training and test data sets into one data set. 
-...  Merging UCI HAR Dataset/train/X_train.txt with UCI HAR Dataset/test/X_test.txt result in 10299 obs. of 561 variables. 
-...  Merging UCI HAR Dataset/train/subject_train.txt with UCI HAR Dataset/test/subject_test.txt result in 10299 obs. of 1 variables.
-...  Merging UCI HAR Dataset/train/y_train.txt with UCI HAR Dataset/test/y_test.txt result in 10299 obs of 1 variables.
+*  Merging UCI HAR Dataset/train/X_train.txt with UCI HAR Dataset/test/X_test.txt result in 10299 obs. of 561 variables. 
+*  Merging UCI HAR Dataset/train/subject_train.txt with UCI HAR Dataset/test/subject_test.txt result in 10299 obs. of 1 variables.
+*  Merging UCI HAR Dataset/train/y_train.txt with UCI HAR Dataset/test/y_test.txt result in 10299 obs of 1 variables.
 
 * Read UCI HAR Dataset/features.txt and extracts only the measurements on the mean and standard deviation for each measurement result in 10299 obs. in 66 variables.
 
